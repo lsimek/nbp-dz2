@@ -1,0 +1,7 @@
+#!/usr/bin/fish
+
+sudo -u postgres psql -f schema.sql
+sudo -u postgres psql -d autoskola -f triggers.sql
+sudo -u postgres psql -d autoskola -f views.sql
+sudo -u postgres psql -d autoskola -f xtests.sql
+

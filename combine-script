@@ -1,0 +1,2 @@
+#!/usr/bin/fish
+cat *.sql > dz2.sql
